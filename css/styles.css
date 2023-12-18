@@ -15,7 +15,7 @@ a {
   font-family: 'Raleway';
   font-size: 18px;
   font-weight: 700;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   line-height: 1.16;
   text-transform: uppercase;
   color: #2e2f42;
@@ -26,111 +26,111 @@ a {
 
 .nav-list-item {
   color: #2e2f42;
-  font-family: Roboto;
   font-weight: 500;
-  letter-spacing: 0.32px;
-  color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 .contacts-item {
   color: #434455;
-  font-family: Roboto;
-  font-weight: 400;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
+}
+.nav-list-item:hover,
+.contacts-item:hover {
+  color: #404bbf;
+}
+.nav-list-item:focus,
+.contacts-item:focus {
+  color: #404bbf;
+}
+.nav-list-item:active {
+  color: #404bbf;
+  text-decoration: underline;
 }
 .hero {
   background-color: #2e2f42;
 }
 .hero-title {
   color: #fff;
-  font-family: Roboto;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
 }
 .hero-button {
-  font-family: Roboto;
   background-color: #4d5ae5;
   color: #fff;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+.hero-button:hover {
+  background-color: #404bbf;
+}
+.hero-button:focus {
+  background-color: #404bbf;
 }
 .features-list {
-  font-family: Roboto;
   color: #434455;
-  font-weight: 400;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 .features-list-title {
-  font-family: Roboto;
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 .our-team {
   background-color: #f4f4fd;
   color: #434455;
-  font-family: Roboto;
-  font-weight: 400;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 .our-team-title {
   color: #2e2f42;
-  font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 .our-team-list-title {
   color: #2e2f42;
-  font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 .our-portfolio {
   color: #434455;
-  font-family: Roboto;
-  font-weight: 400;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 .our-portfolio-title {
   color: #2e2f42;
-  font-family: Roboto;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.1;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 .our-portfolio-list-title {
   color: #2e2f42;
-  font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 .footer-items {
   background-color: #2e2f42;
   color: #f4f4fd;
-  font-family: Roboto;
-  font-weight: 400;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 .footer-logo {
   color: #f4f4fd;
   font-family: 'Raleway';
   font-size: 18px;
   font-weight: 700;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   line-height: 1.16;
   text-transform: uppercase;
 }
