@@ -11,9 +11,7 @@ ul {
 a {
   text-decoration: none;
 }
-address {
-  font-style: normal;
-}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -92,8 +90,8 @@ address {
   color: #434455;
   letter-spacing: 0.02em;
 }
-.our-team-photo {
-  background-color: #fff;
+.our-team-list-item {
+  background-color: #ffff;
 }
 .our-team-title {
   color: #2e2f42;
@@ -144,13 +142,16 @@ address {
   letter-spacing: 0.02em;
 }
 .footer-logo {
-  color: #f4f4fd;
+  color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 0.03em;
   line-height: 1.17;
   text-transform: uppercase;
+}
+.logo-special-footer {
+  color: #f4f4fd;
 }
 .footer-items-text {
   color: #f4f4fd;
