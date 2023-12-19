@@ -83,11 +83,15 @@ a {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 .our-team {
   background-color: #f4f4fd;
   color: #434455;
   letter-spacing: 0.02em;
+}
+.our-team-list {
+  background-color: #fff;
 }
 .our-team-title {
   color: #2e2f42;
@@ -104,6 +108,9 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+.our-team-list-text {
+  font-size: 16px;
+}
 .our-portfolio {
   color: #434455;
   letter-spacing: 0.02em;
@@ -116,6 +123,7 @@ a {
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 .our-portfolio-list-title {
   color: #2e2f42;
@@ -131,10 +139,10 @@ a {
 }
 .footer-logo {
   color: #f4f4fd;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 0.03em;
-  line-height: 1.16;
+  line-height: 1.17;
   text-transform: uppercase;
 }
